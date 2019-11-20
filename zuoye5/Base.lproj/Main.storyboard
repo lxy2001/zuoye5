@@ -149,7 +149,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dw9-ql-V7x">
-                                <rect key="frame" x="0.0" y="194" width="278" height="112"/>
+                                <rect key="frame" x="0.0" y="194" width="93" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="AC"/>
@@ -180,6 +180,24 @@
                                 <state key="normal" title="/"/>
                                 <connections>
                                     <action selector="fuhao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aq2-QC-2n9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAi-Vc-7ep">
+                                <rect key="frame" x="91" y="194" width="92" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="+/-"/>
+                                <connections>
+                                    <action selector="zhengfu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fy0-jm-PYh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilh-5U-eas">
+                                <rect key="frame" x="184" y="196" width="94" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="%"/>
+                                <connections>
+                                    <action selector="baifenhao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dqA-3m-c6B"/>
                                 </connections>
                             </button>
                         </subviews>

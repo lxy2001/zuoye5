@@ -14,6 +14,13 @@ class ViewController: UIViewController {
     var m=0.0
     var s=""
     var e=0.0
+    
+    @IBAction func baifenhao(_ sender: UIButton) {
+        amount.text = "0."+amount.text!
+    }
+    @IBAction func zhengfu(_ sender: UIButton) {
+        amount.text = String(Int(amount.text!)!*(-1))
+    }
     @IBAction func start(_ sender: UIButton) {
         if(sender.currentTitle=="."){
             if(amount.text?.contains("."))!{
